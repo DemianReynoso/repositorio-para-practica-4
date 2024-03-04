@@ -29,7 +29,7 @@ git clone https://github.com/DemianReynoso/repositorio-para-practica-4
 cd repositorio-para-practica-4/practica-4
 
 # Copiando los archivos de configuración en la ruta indicada.
-sudo cp ~/practica-4/seguro.conf /etc/apache2/sites-available/
+sudo cp ~/repositorio-para-practica-4/practica-4/seguro.conf /etc/apache2/sites-available/
 
 #Creando el fatjar para la app1
 cd app1
@@ -38,7 +38,7 @@ chmod +x gradlew
 ./gradlew shadowjar
 
 # Subiendo la aplicación 2 puerto por defecto.
-java -jar ~/practica-4/app1/build/libs/app.jar > ~/practica-4/app1/build/libs/salida.txt 2> ~/practica-4/app1/build/libs/error.txt &
+java -jar ~/repositorio-para-practica-4/practica-4/app1/build/libs/app.jar > ~/practica-4/app1/build/libs/salida.txt 2> ~/practica-4/app1/build/libs/error.txt &
 
 #Creando el fatjar para la app2
 cd ../app2
@@ -47,4 +47,4 @@ chmod +x gradlew
 ./gradlew shadowjar
 
 # Subiendo la aplicación 2 puerto por defecto.
-java -jar ~/practica-4/app2/build/libs/app.jar > ~/practica-4/app2/build/libs/salida.txt 2> ~/practica-4/app2/build/libs/error.txt &
+java -jar ~/repositorio-para-practica-4/practica-4/app2/build/libs/app.jar > ~/repositorio-para-practica-4/practica-4/app2/build/libs/salida.txt 2> ~/practica-4/app2/build/libs/error.txt &
