@@ -26,6 +26,8 @@ sudo service apache2 start
 cd ~/
 git clone https://github.com/DemianReynoso/repositorio-para-practica-4
 
+cd /repositorio-para-practica-4/practica-4
+
 # Copiando los archivos de configuración en la ruta indicada.
 sudo cp ~/practica-4/seguro.conf /etc/apache2/sites-available/
 
