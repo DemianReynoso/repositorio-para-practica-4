@@ -47,4 +47,4 @@ chmod +x gradlew
 ./gradlew shadowjar
 
 # Subiendo la aplicación 2 puerto por defecto.
-java -jar ~/repositorio-para-practica-4/practica-4/app2/build/libs/app.jar > ~/repositorio-para-practica-4/repositorio-para-practica-4/practica-4/app2/build/libs/salida.txt 2> ~/repositorio-para-practica-4/practica-4/app2/build/libs/error.txt &
+java -jar ~/repositorio-para-practica-4/practica-4/app2/build/libs/app.jar > ~/repositorio-para-practica-4/practica-4/app2/build/libs/salida.txt 2> ~/repositorio-para-practica-4/practica-4/app2/build/libs/error.txt &
